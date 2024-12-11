@@ -1,4 +1,4 @@
-export const API_END_POINT="http://localhost:8080/api";
+export const API_END_POINT="https://net-flix-clone-backend.vercel.app/api";
 
 export const  NOW_PLAYING_MOVIES= 'https://api.themoviedb.org/3/movie/now_playing';
 export const  POPULAR_MOVIES= 'https://api.themoviedb.org/3/movie/popular';
