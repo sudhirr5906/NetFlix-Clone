@@ -11,16 +11,16 @@ dotenv.config({
 
 app.use(express.urlencoded({extended:false}))
 app.use(express.json())
-app.use(cors());
+app.use(cors({ origin: 'https://net-flix-clone-frontend.vercel.app/' }));
 app.use(bodyParser.urlencoded({
     extended: false
 }));
 
 
 app.use("/api",route)
-const port = process.env.PORT || 8080;
+// const port = process.env.PORT || 8080;
 
 
-app.listen(port,()=>{
-    console.log(`Port is Running on ${port}`);
-})
+// app.listen(port,()=>{
+//     console.log(`Port is Running on ${port}`);
+// })
