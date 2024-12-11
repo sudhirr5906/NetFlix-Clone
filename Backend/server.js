@@ -11,7 +11,7 @@ dotenv.config({
 
 app.use(express.urlencoded({extended:false}))
 app.use(express.json())
-app.use(cors({ origin: 'https://net-flix-clone-frontend.vercel.app/' }));
+app.use(cors({ origin: 'https://net-flix-clone-frontend.vercel.app' }));
 app.use(bodyParser.urlencoded({
     extended: false
 }));
